@@ -1,10 +1,12 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Greyplay | Indie Game Studio</title>
-    
+
     <link rel="icon" type="image/png" href="Greyplay_Logo.png">
 
     <style>
@@ -76,6 +78,15 @@
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
         }
 
+        .game-logo {
+            display: block;
+            max-width: 350px;
+            width: 100%;
+            height: auto;
+            margin: 15px 0 25px;
+            border-radius: 12px;
+        }
+
         .button-group {
             display: flex;
             gap: 20px;
@@ -123,11 +134,16 @@
         }
     </style>
 </head>
+
 <body>
 
 <header>
     <img src="Greyplay_Logo.png" alt="Greyplay Logo" class="logo">
-    <p style="color: var(--text-dim); margin-top: 10px;">We make games.</p>
+
+    <p style="color: var(--text-dim); margin-top: 10px;">
+        We make games.
+    </p>
+
     <nav>
         <a href="#about">Studio</a>
         <a href="#games">Projects</a>
@@ -137,28 +153,47 @@
 
 <section id="about">
     <h2>The Studio</h2>
-    <p>Greyplay is an independent development house dedicated to tight gameplay loops and immersive storytelling. We believe in "play-first" design, ensuring every mechanic feels intentional and rewarding.</p>
+
+    <p>
+        Greyplay is an independent development house dedicated to tight gameplay loops and immersive storytelling.
+        We believe in "play-first" design, ensuring every mechanic feels intentional and rewarding.
+    </p>
 </section>
 
 <section id="games">
     <h2>Current Projects</h2>
+
     <div class="game-card">
-        <h3 style="font-size: 1.8rem; margin-top: 0;">Signal lost</h3>
+
+        <h3 style="font-size: 1.8rem; margin-top: 0;">
+            Signal lost
+        </h3>
+
+        <img
+            src="logofordeadsignal.png"
+            alt="Signal Lost Logo"
+            class="game-logo"
+        >
+
         <p>do challenges while running from lil timmy.</p>
-        
+
         <div class="button-group">
             <a href="Signal lost.zip" download class="download-btn">
                 Download for Windows (.zip)
             </a>
-        
-            </a>
         </div>
+
     </div>
 </section>
 
 <section id="contact">
     <h2>Connect</h2>
-    <p>Interested in testing or collaboration? Devlogs and community links are currently under construction. Check back soon for updates.</p>
+
+    <p>
+        Interested in testing or collaboration?
+        Devlogs and community links are currently under construction.
+        Check back soon for updates.
+    </p>
 </section>
 
 <footer>
